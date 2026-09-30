@@ -1,0 +1,35 @@
+# Dark Suite — v1
+# The generated file for this port is dist/theme.css (relative to this folder).
+# Edit `map` to add/remove tokens — the generator picks them up.
+
+name: hermes
+format: css
+
+# Concrete file path (relative to this folder) — where gen_specs.py writes.
+# In the real port repo this would be `themes/dark-console.json` etc.; within
+# core/ we only ship one port as the template/example = hermes.
+generated: dist/theme.css
+
+# Each key = a CSS var in dist/theme.css. Value = a dotted token into
+# palette.json's `colors:` block.
+map:
+  background: surface.background
+  card: surface.card
+  muted: surface.muted
+  popover: surface.popover
+  sidebar: surface.sidebar
+  foreground: text.foreground
+  secondary: text.secondary
+  border: structure.border
+  accent: structure.accent
+  accent_deep: structure.accentDeep
+  danger: semantic.danger
+  danger_deep: semantic.dangerDeep
+  bubble: bubble.userMessage
+  bubble_border: bubble.userMessageBorder
+  composer_field: composer.field
+  composer_text: composer.fieldText
+  button: button.filled
+  button_hover: button.filledHover
+  nav_selected: button.navSelected
+  nav_hover: button.navHover

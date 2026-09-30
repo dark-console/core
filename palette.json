@@ -1,0 +1,79 @@
+{
+  "suite": "dark-console",
+  "label": "Dark Console",
+  "description": "Dark room look — one palette, every tool.",
+  "version": "0.1.0",
+  "status": "live",
+  "fonts": {
+    "family": "Glass TTY VT220",
+    "note": "Single-weight face (no bold ramp); marked bold syntheses. Real family only — per-tool CSS fallbacks are a rendering detail, not a token."
+  },
+  "colors": {
+    "surface": {
+      "background":       {"hex": "#00040B", "role": "the chat field — darkest surface"},
+      "card":             {"hex": "#0A0806", "role": "warm near-black, lifted from bg — raised surfaces"},
+      "muted":            {"hex": "#141109", "role": "hover tints, disabled fills (warm)"},
+      "popover":          {"hex": "#12100B", "role": "menus, dropdowns, popovers"},
+      "sidebar":          {"hex": "#0A0806", "role": "working rail — reads lighter than chat"}
+    },
+    "text": {
+      "foreground":       {"hex": "#FF8300", "role": "amber — all body text (label / output)"},
+      "secondary":        {"hex": "#A06222", "role": "warm dim — secondary, placeholders, tree rules"}
+    },
+    "structure": {
+      "border":           {"hex": "#300F00", "role": "warm brown — all borders, idle input outlines"},
+      "accent":           {"hex": "#DB0000", "role": "red — focus ring, active tab, selection, cursor"},
+      "accentDeep":       {"hex": "#221102", "role": "accent ~12% on bg — hover fills, active nav rows"}
+    },
+    "semantic": {
+      "danger":           {"hex": "#DB0000", "role": "Stop / error actions"},
+      "dangerDeep":       {"hex": "#221102", "role": "danger hover / active"}
+    },
+    "bubble": {
+      "userMessage":      {"hex": "#300F00", "role": "your messages — warm brown, raised"},
+      "userMessageBorder":{"hex": "#213E97", "role": "blue line around your message bubble"}
+    },
+    "composer": {
+      "field":            {"hex": "#170700", "role": "composer / input field fill (maroon)"},
+      "fieldText":        {"hex": "#DB0000", "role": "your typed text (red)"}
+    },
+    "button": {
+      "filled":           {"hex": "#0D1A32", "role": "filled + secondary button background"},
+      "filledHover":      {"hex": "#152E55", "role": "button hover"},
+      "navSelected":      {"hex": "#0D1A32", "role": "selected nav rows (default rail)"},
+      "navHover":         {"hex": "#152E55", "role": "nav / row hover"}
+    }
+  },
+  "ansi": {
+    "description": "Terminal ramp — the Dark Studio ANSI set, middle ramp normal / bright ramp bright. Needed for the terminal port.",
+    "foreground": "#FF8300",
+    "cursor": "#DB0000",
+    "selection": "#1A3278",
+    "16": {
+      "black":        "#464B59",
+      "red":          "#E33B57",
+      "green":        "#25A231",
+      "yellow":       "#B88A16",
+      "blue":         "#476BD7",
+      "magenta":      "#9E1A53",
+      "cyan":         "#0981B4",
+      "white":        "#C2C2C2",
+      "brightBlack":  "#A06222",
+      "brightRed":    "#E85E75",
+      "brightGreen":  "#59D966",
+      "brightYellow": "#EABC48",
+      "brightBlue":   "#718CDC",
+      "brightMagenta":"#E5619A",
+      "brightCyan":   "#3DBEF5",
+      "brightWhite":  "#EBEBEB"
+    }
+  },
+  "ports": {
+    "hermes":     {"name": "Hermes desktop",     "status": "live",    "repo": "dark-console/hermes",     "source": "barnacker/hermes_dark_studio"},
+    "vscode":     {"name": "VS Code",            "status": "live",    "repo": "dark-console/vscode",     "source": "barnacker/dark-studio-vscode"},
+    "obsidian":   {"name": "Obsidian",           "status": "live",    "repo": "dark-console/obsidian",   "source": "vault .obsidian/themes/Dark Studio"},
+    "neovim":     {"name": "Neovim",             "status": "next",    "repo": null},
+    "obs":        {"name": "OBS Studio",         "status": "planned", "repo": null},
+    "terminal":   {"name": "Terminal (ANSI)",    "status": "planned", "repo": null}
+  }
+}

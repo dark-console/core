@@ -1,0 +1,22 @@
+:root {
+  --background: #00040B;
+  --card: #0A0806;
+  --muted: #141109;
+  --popover: #12100B;
+  --sidebar: #0A0806;
+  --foreground: #FF8300;
+  --secondary: #A06222;
+  --border: #300F00;
+  --accent: #DB0000;
+  --accent_deep: #221102;
+  --danger: #DB0000;
+  --danger_deep: #221102;
+  --bubble: #300F00;
+  --bubble_border: #213E97;
+  --composer_field: #170700;
+  --composer_text: #DB0000;
+  --button: #0D1A32;
+  --button_hover: #152E55;
+  --nav_selected: #0D1A32;
+  --nav_hover: #152E55;
+}
