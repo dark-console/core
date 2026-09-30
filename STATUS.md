@@ -4,7 +4,7 @@ Live board: which tools are building, which are next, which are planned.
 
 | Port | Status | Notes |
 |---|---|---|
-| **Hermes desktop** | ✅ live | `dark-console/hermes` — port built under org (upstream: `barnacker/hermes_dark_studio`) |
+| **Hermes desktop** | ✅ live | [`dark-console/hermes-desktop`](https://github.com/dark-console/hermes-desktop) — plugin ID stays `dark-studio` (compat), display label `Dark Console` |
 | **VS Code** | ✅ live | `dark-console/vscode` — port built under org (upstream: `barnacker/dark-studio-vscode`) |
 | **Obsidian** | ✅ live | `dark-console/obsidian` (upstream: vault `.obsidian/themes/Dark Studio`) |
 | **Neovim** | 🚧 next | First port to build from scratch against `palette.json` |
