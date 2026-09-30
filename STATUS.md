@@ -4,8 +4,8 @@ Live board: which tools are building, which are next, which are planned.
 
 | Port | Status | Notes |
 |---|---|---|
-| **Hermes desktop** | ✅ live | `dark-console/hermes` (upstream: `barnacker/hermes_dark_studio`) |
-| **VS Code** | ✅ live | `dark-console/vscode` (upstream: `barnacker/dark-studio-vscode`) |
+| **Hermes desktop** | ✅ live | `dark-console/hermes` — port built under org (upstream: `barnacker/hermes_dark_studio`) |
+| **VS Code** | ✅ live | `dark-console/vscode` — port built under org (upstream: `barnacker/dark-studio-vscode`) |
 | **Obsidian** | ✅ live | `dark-console/obsidian` (upstream: vault `.obsidian/themes/Dark Studio`) |
 | **Neovim** | 🚧 next | First port to build from scratch against `palette.json` |
 | **OBS Studio** | ⏳ planned | Preset + LUT + .json project |

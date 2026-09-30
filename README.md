@@ -116,4 +116,4 @@ core/
 
 ## License
 
-MIT (draft; final license TBA — see `LICENSE`).
+MIT — each port repo carries the suite license (see `dark-console/<tool>/LICENSE`). License is org-wide (Dark Console, 2026), not per-port; the override path is open (e.g. a per-port BSL if a future port requires it).
