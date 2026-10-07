@@ -54,14 +54,14 @@ The 16-color terminal ramp, mapped from the suite.
 
 | | Normal | Bright |
 |---|---|---|
-| black | `#464B59` | `#A06222` |
-| red | `#E33B57` | `#E85E75` |
+| black | `#252C2C` | `#91917E` |
+| red | `#E52E2E` | `#FF6161` |
 | green | `#00B320` | `#33FF33` |
-| yellow | `#B88A16` | `#EABC48` |
-| blue | `#476BD7` | `#718CDC` |
-| magenta | `#9E1A53` | `#E5619A` |
-| cyan | `#0981B4` | `#3DBEF5` |
-| white | `#C2C2C2` | `#EBEBEB` |
+| yellow | `#F5C024` | `#FFD34F` |
+| blue | `#1F9EFF` | `#7AC6FF` |
+| magenta | `#D694FA` | `#D801F9` |
+| cyan | `#16B1F3` | `#3DBEF5` |
+| white | `#C7C7BD` | `#FFFFFF` |
 
 Cursor: `#DB0000` · Selection: `#1A3278` · Foreground: `#FF8300`
 
