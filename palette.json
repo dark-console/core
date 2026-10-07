@@ -52,7 +52,7 @@
     "16": {
       "black":        "#464B59",
       "red":          "#E33B57",
-      "green":        "#25A231",
+      "green":        "#00B320",
       "yellow":       "#B88A16",
       "blue":         "#476BD7",
       "magenta":      "#9E1A53",
@@ -60,7 +60,7 @@
       "white":        "#C2C2C2",
       "brightBlack":  "#A06222",
       "brightRed":    "#E85E75",
-      "brightGreen":  "#59D966",
+      "brightGreen":  "#33FF33",
       "brightYellow": "#EABC48",
       "brightBlue":   "#718CDC",
       "brightMagenta":"#E5619A",

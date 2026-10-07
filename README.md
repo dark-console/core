@@ -56,7 +56,7 @@ The 16-color terminal ramp, mapped from the suite.
 |---|---|---|
 | black | `#464B59` | `#A06222` |
 | red | `#E33B57` | `#E85E75` |
-| green | `#25A231` | `#59D966` |
+| green | `#00B320` | `#33FF33` |
 | yellow | `#B88A16` | `#EABC48` |
 | blue | `#476BD7` | `#718CDC` |
 | magenta | `#9E1A53` | `#E5619A` |
